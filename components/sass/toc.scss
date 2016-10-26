@@ -1,0 +1,58 @@
+.toc{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+    h1{
+        font-weight: bold;
+        font-size: 1.8rem;
+        margin-bottom: 0.2rem;
+
+        color: $brand-primary;
+    }
+
+    h2{
+        font-weight: thin;
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+
+        color: rgba(0,0,0, 0.5);
+    }
+    .toc-item{
+
+
+        .toc-item-body{
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 30px;
+            padding-right: 20px;
+            border-radius: 40px;
+
+            border: thin solid $brand-primary;
+            margin-bottom: 0.5rem;
+
+            &:hover{
+                background-color: $brand-primary;
+                h1{
+                    color: #fff;
+                    text-decoration: none !important;
+                }
+                h2{
+                    color: #fff;
+                    text-decoration: none !important;
+
+                }
+                .toc-item-body{
+
+                }
+            }
+        }
+    }
+
+    
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+}

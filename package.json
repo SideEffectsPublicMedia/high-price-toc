@@ -1,0 +1,26 @@
+{
+  "name": "high-price-toc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SideEffectsPublicMedia/high-price-toc.git"
+  },
+  "author": "nathan@nathanlawrence.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SideEffectsPublicMedia/high-price-toc/issues"
+  },
+  "homepage": "https://github.com/SideEffectsPublicMedia/high-price-toc#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2"
+  },
+  "dependencies": {
+    "gulp-sass": "^2.3.2"
+  }
+}
