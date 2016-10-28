@@ -21,7 +21,7 @@ gulp.task('html', function(){
 
 // This task will only work for KBIA.
 gulp.task('upload', shell.task([
-	'aws s3 cp build s3://apps.nathanlawrence.org/sfx/high-price/toc --recursive'
+	'aws s3 cp build s3://apps.nathanlawrence.org/sfx/high-price/toc --recursive --profile nl'
 ]));
 
 gulp.task('watch',function(){
